@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 80px 100px;
+  background-color: #ffffff;
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 10px;
+}
+
+.gallery-photo {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.photo1 {
+  background-image: url("/assets/pirveliphoto.png");
+}
+
+.photo2 {
+  background-image: url("/assets/meorephoto.png");
+}
+
+.photo4 {
+  background-image: url("/assets/yviteli.png");
+}
+
+.photo6 {
+  background-image: url("/assets/meeqvse.png");
+}
+
+.photo7 {
+  background-image: url("/assets/meshvide.png");
+}
